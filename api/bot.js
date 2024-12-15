@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Constants for API URLs
 const TELEGRAM_API_URL = 'https://api.telegram.org/bot7690238968:AAGxga4_OZlNnddZbK_LJH87gIHPfYqbCAI';
-const WEB_APP_URL = 'https://capx-testing.vercel.app/';
+const WEB_APP_URL = 'https://testing-rose-three.vercel.app/';
 
 // Handle incoming requests from Telegram
 app.post('/api/bot', async (req, res) => {
